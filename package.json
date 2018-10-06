@@ -1,0 +1,41 @@
+{
+  "name": "paylog.lollipop.onl",
+  "version": "0.0.1",
+  "description": "Household account book application",
+  "repository": "https://github.com/simochee/paylog.lollipop.onl.git",
+  "author": "simochee <simochee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt -H 0.0.0.0 -p 4300",
+    "generate": "nuxt generate",
+    "lint:sass": "stylelint 'src/**/*.(sass|vue)'"
+  },
+  "dependencies": {
+    "nuxt": "npm:nuxt-edge",
+    "nuxt-edge": "npm:nuxt-edge",
+    "nuxt-property-decorator": "^1.2.0",
+    "reset.css": "^2.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/friendly-errors-webpack-plugin": "^2.0.2",
+    "@types/node": "^10.10.1",
+    "autoprefixer": "^9.1.5",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "nuxt-sass-resources-loader": "^2.0.5",
+    "postcss": "^7.0.2",
+    "postcss-loader": "^3.0.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-sugarss-recommended": "^1.2.0",
+    "stylelint-scss": "^3.3.0",
+    "ts-loader": "^5.1.1",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "typescript": "^3.0.3",
+    "vue-tslint-loader": "^3.5.6"
+  }
+}
